@@ -1,3 +1,6 @@
+/* Google fonts (for now)*/
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
 /* Asterisk wildcard selector to override default styles by browser like in the love running video recommanded */
 * {
     padding: 0;
@@ -12,6 +15,11 @@ body {
     flex-direction: column;
     /* Generic styles*/
     color: #2f5141;
+    font-family: 'Borel', sans-serif;
+}
+
+h1 {
+    font-family: 'Borel', sans-serif;
 }
 
 /* Header */
