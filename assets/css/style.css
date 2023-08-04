@@ -19,11 +19,6 @@ body {
     font-family: 'Borel', sans-serif;
 }
 
-h1 {
-    font-family: 'Borel', sans-serif;
-    /*color: #2f5141;*/
-}
-
 
 /* Header */
 header {
@@ -35,16 +30,30 @@ header {
     box-shadow: 0 1px 1px #2f5141;
 }
 
-/* navigation links */
-#menu {
-    font-size: 110;
-    letter-spacing: 4px;
+/* Text decoration none */
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 
-#menu li {
-    float: right;
+h1 {
+    font-family: 'Borel', sans-serif;
+    /*color: #2f5141;*/
+
+}
+
+/* navigation links */
+#menu {
+    font-size: 110%;
     list-style-type: none;
-    margin-right: 30px;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 2px solid #2f5141;
 }
 
 /* Main content */
