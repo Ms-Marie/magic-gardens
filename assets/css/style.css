@@ -5,17 +5,28 @@
     box-sizing: border-box;
 }
 
+/* Generic styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic styles*/
+    color: #2f5141;
+}
+
 /* Header */
 header {
-    background-color: lightgreen;
+    background-color: #ccff66
 }
 
 /* Main content */
 main {
-    background-color: lightblue;
+    background-color: rgb(182, 230, 173);
+    /* Make main element take up any surplus space to push fotter down */
+    flex: 1 0 auto;
 }
 
 /* Footer */
 footer {
-    background-color: olivedrab;
+    background-color: #ccff66
 }
