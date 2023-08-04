@@ -27,6 +27,19 @@ header {
     background-color: #ccff66
 }
 
+/* navigation links */
+
+#menu {
+    font-size: 110;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
 /* Main content */
 main {
     background-color: rgb(182, 230, 173);
