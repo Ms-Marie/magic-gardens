@@ -6,7 +6,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: #2f5141
+    color: #355E3B;
 }
 
 /* Generic styles */
@@ -95,6 +95,17 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: #ccff66
+#social-networks {
+    background-color: #ccff66;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 3%;
+    color: #355E3B;
 }
