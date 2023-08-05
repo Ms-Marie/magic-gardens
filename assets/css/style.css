@@ -28,6 +28,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 1px 1px #2f5141;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 /* Text decoration none */
@@ -53,18 +56,34 @@ h1 {
 }
 
 .active {
-    border-bottom: 2px solid #2f5141;
+    border-bottom: -10px solid #2f5141;
 }
 
 /* Navbar styles with dropdown toggle*/
 nav {
     position: absolute;
+    background-color: #CCFF99;
     width: 100%;
-    /*box-shadow: 0 0px 0px #2f5141;*/
+    left: 0;
     padding: 0 1rem;
+    box-shadow: 0 2px 2px #2f5141;
     display: none;
+    top: 100%;
+}
 
 
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* Main content */
@@ -72,6 +91,7 @@ main {
     background-color: rgb(182, 230, 173);
     /* Make main element take up any surplus space to push fotter down */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer */
