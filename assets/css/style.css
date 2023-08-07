@@ -47,48 +47,25 @@ h1 {
 
 /* navigation links */
 #menu {
-    font-size: 110%;
+    font-size: 130%;
     list-style-type: none;
+    display: block;
 }
 
-#menu>li {
-    margin-bottom: 1em;
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
 }
+
 
 .active {
     border-bottom: -10px solid #2f5141;
 }
 
-/* Navbar styles with dropdown toggle*/
-nav {
-    position: absolute;
-    background-color: #CCFF99;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #2f5141;
-    display: none;
-    top: 100%;
-}
-
-
-
-/* Nav toggle */
-#nav-toggle:checked~nav {
-    display: block;
-}
-
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    font-size: 2rem;
-}
-
 /* Main content */
 main {
-    background-color: rgb(182, 230, 173);
+    background-color: #CCFF99;
     /* Make main element take up any surplus space to push fotter down */
     flex: 1 0 auto;
     margin-top: 47px;
@@ -100,9 +77,18 @@ main {
     background: url(../images/cosmic-timetraveler-pYyOZ8q7AII-unsplash.jpg) no-repeat center center;
 }
 
+.texts {
+    text-align: center;
+}
+
 #container {
     display: flex;
     flex-direction: column;
+}
+
+.container-video {
+    width: 160px;
+    height: 90px;
 }
 
 /* Footer */
