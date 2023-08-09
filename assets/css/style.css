@@ -16,7 +16,8 @@ body {
     flex-direction: column;
     /* Generic styles*/
     /*color: #2f5141;*/
-    font-family: 'Borel', sans-serif;
+    font-family: 'Tahoma', sans-serif;
+    text-align: center;
 }
 
 
@@ -24,7 +25,7 @@ body {
 header {
     background-color: #CCFF99;
     padding: 0 1rem;
-    position: fixed;
+    /*position: fixed;*/
     z-index: 99;
     width: 100%;
     box-shadow: 0 1px 1px #2f5141;
@@ -46,11 +47,16 @@ h1 {
 
 }
 
+.texts {
+    margin: 2px;
+}
+
 /* navigation links */
 #nav {
     font-size: 130%;
     margin-top: 30px;
     text-align: right;
+    font-family: 'Borel', sans-serif;
 }
 
 #nav li {
@@ -69,7 +75,7 @@ main {
     background-color: #CCFF99;
     /* Make main element take up any surplus space to push fotter down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    padding-top: 1px;
 }
 
 #hero-image {
@@ -79,13 +85,16 @@ main {
     margin-bottom: 8px;
 }
 
-.texts {
+#title {
     text-align: center;
+    padding-top: 10px;
+
 }
 
 #container {
     display: flex;
     flex-direction: column;
+    padding-left: 10px;
 }
 
 .container-video {
@@ -94,6 +103,35 @@ main {
 }
 
 /* Footer */
+
+.footer {
+    background-color: #ccff66;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+#copyright {
+    float: left;
+    font-size: small;
+
+
+
+}
+
+.social {
+    text-align: right;
+}
+
+.social>li {
+    list-style-type: none;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+/*
 .footer {
     background-color: #ccff66;
     display: flex;
@@ -111,3 +149,4 @@ main {
     justify-content: flex-end;
     list-style-type: none;
 }
+*/
