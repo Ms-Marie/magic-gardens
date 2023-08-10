@@ -9,9 +9,7 @@
     <meta name="description" content="Magic Gardens. Garden tours in Europe, explore nature " />
     <meta name="keywords"
         content="garden tours, gardening, organic farming, wild flowers, herbs, outdoors, nature, walks" />
-    <title>
-        Magic Gardens
-    </title>
+    <title>Contact Form</title>
     <!-- Favicons? -->
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -46,34 +44,55 @@
         </nav>
     </header>
 
+
     <!-- Main part -->
-    <main>
+    <main class="contact-main">
         <section>
-            <div id="hero-image">
+            <div id="title">
+                <h1>
+                    Get in touch
+                </h1>
             </div>
-        </section>
 
-        <section>
-            <div>
-                <h2 id="home-text">
-                    <a href="magic-walks.html">
-                    Discover our most popular walks and book your magic experience with us.
-                    </a>
-                    <br>
-                    Magnificent parks and landscapes are waiting for you all year round.
-                    Discover the beauty close to your home or while travelling abroad. 
-                    Let nature recharge and inspire you.
-                    Dive into magic and explore the unkown.
-                </h2>
-            </div>
-        </section>
+            <div class="wrapper">
 
-        <section>
             </div>
-        </section>
+            <section>
+                <fieldset>
+                    <legend>
+                        Join us on a magical walk
+                    </legend>
+                    <div>
+                        <label for="name-field">
+                            Your Name
+                        </label>
+                        <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+                    </div>
+                    <div>
+                        <label for="email-field">
+                            Your Email Address
+                        </label>
+                        <input id="email-field" type="email" name="email" placeholder="Your email" required>
+                    </div>
+                    <div>
+                        <label for="Message" class="fcf-label">
+                            Your message
+                        </label>
+                        <div class="fcf-input-group">
+                            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000"
+                                required>
+                </textarea>
+                        </div>
+                        <div class="fcf-form-group">
+                            <button type="submit" id="fcf-button"
+                                class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">
+                                Send
+                            </button>
+                        </div>
+            </section>
     </main>
 
-    <!-- Footer -->
+   <!-- Footer -->
 
     <footer>
         <div class="footer">
@@ -125,3 +144,5 @@
 </body>
 
 </html>
+
+

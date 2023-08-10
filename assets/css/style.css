@@ -1,5 +1,6 @@
 /* Google fonts (for now)*/
 @import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@300&display=swap');
 
 /* Asterisk wildcard selector to override default styles by browser like in the love running video recommanded */
 * {
@@ -16,22 +17,19 @@ body {
     flex-direction: column;
     /* Generic styles*/
     /*color: #2f5141;*/
-    font-family: 'Tahoma', sans-serif;
+    font-family: 'Rem', sans-serif;
     text-align: center;
 }
 
 
 /* Header */
 header {
-    background-color: #CCFF99;
+    background-color: #ccff66;
     padding: 0 1rem;
-    /*position: fixed;*/
     z-index: 99;
     width: 100%;
-    box-shadow: 0 1px 1px #2f5141;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
 }
 
 /* Text decoration none */
@@ -47,7 +45,7 @@ h1 {
 
 }
 
-.texts {
+#home-text {
     margin: 2px;
 }
 
@@ -65,7 +63,7 @@ h1 {
     display: inline-block;
 }
 
-
+/* Does not work somehow :(*/
 .active {
     border-bottom: -10px solid #2f5141;
 }
@@ -82,25 +80,55 @@ main {
     height: 600px;
     width: 100%;
     background: url(../images/cosmic-timetraveler-pYyOZ8q7AII-unsplash.jpg) no-repeat center center;
-    margin-bottom: 8px;
+    margin-bottom: 15px;
+
 }
 
+/* Hearder styling for Home and Magic Walk screen*/
 #title {
     text-align: center;
     padding-top: 10px;
+}
 
+/* Magic Walks */
+.walks-header {
+    font-family: 'Borel', sans-serif;
+    padding-top: 50px;
+
+
+}
+
+.walks-texts {
+ padding-bottom: 0px 0px 0px 10px;
+    
 }
 
 #container {
     display: flex;
     flex-direction: column;
     padding-left: 10px;
+    
+
 }
 
 .container-video {
     width: 160px;
     height: 90px;
 }
+
+/* Contact Us */
+.main-contact {
+    background-image: url("");
+    
+
+}
+
+.wrapper-contact {
+
+}
+
+
+
 
 /* Footer */
 
@@ -116,9 +144,7 @@ main {
 #copyright {
     float: left;
     font-size: small;
-
-
-
+    font-family: 'Borel', sans-serif;
 }
 
 .social {
