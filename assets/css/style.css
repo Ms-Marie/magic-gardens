@@ -1,4 +1,4 @@
-/* Google fonts (for now)*/
+/* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=REM:wght@300&display=swap');
 
@@ -20,27 +20,25 @@ body {
 }
 
 
-/* Header update header as its from love running make it my own :)*/
+/* Header*/
 header {
     display: flex;
+    padding: 4px;
     background-color: #ccff66;
-    padding: 2px;
-    z-index: 99;
     width: 100%;
     justify-content: space-between;
+
 }
 
 /* Text decoration none */
 header a {
     text-decoration: none;
-    color: inherit;
 }
 
 
 h1 {
     font-family: 'Borel', sans-serif;
     font-size: xxx-large;
-    /*color: #2f5141;*/
 
 }
 
@@ -53,18 +51,17 @@ h1 {
     font-size: 130%;
     margin-top: 30px;
     font-family: 'Borel', sans-serif;
+
 }
 
 #nav li {
     list-style-type: none;
     margin-right: 30px;
     display: inline-block;
+
 }
 
-/* Does not work somehow :(*/
-.active {
-    border-bottom: -10px solid #2f5141;
-}
+.active {}
 
 /* Main content */
 main {
@@ -75,7 +72,7 @@ main {
 }
 
 #hero-image {
-    height: 600px;
+    height: 650px;
     width: 100%;
     background: url(../images/cosmic-timetraveler-pYyOZ8q7AII-unsplash.jpg) no-repeat center center;
     margin-bottom: 15px;
@@ -108,6 +105,7 @@ main {
 
 .bottom-spacing {
     margin-bottom: 20px;
+
 }
 
 .container-video {
@@ -116,7 +114,25 @@ main {
 }
 
 /* Contact Us */
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    margin: 64px 3px 5px 3px;
+    border-radius: 15px;
+    border: solid 5px #355E3B;
+    padding: 20px;
+    background-color: #ccff66;
 
+
+}
+
+.contact li {
+    margin-bottom: 10px;
+    text-decoration: none;
+
+
+
+}
 
 
 /* Footer */
