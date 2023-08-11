@@ -10,25 +10,23 @@
     color: #355E3B;
 }
 
-/* Generic styles */
+/* Generic styles update the body as its from Love running */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic styles*/
-    /*color: #2f5141;*/
     font-family: 'Rem', sans-serif;
     text-align: center;
 }
 
 
-/* Header */
+/* Header update header as its from love running make it my own :)*/
 header {
+    display: flex;
     background-color: #ccff66;
-    padding: 0 1rem;
+    padding: 2px;
     z-index: 99;
     width: 100%;
-    display: flex;
     justify-content: space-between;
 }
 
@@ -37,6 +35,7 @@ header a {
     text-decoration: none;
     color: inherit;
 }
+
 
 h1 {
     font-family: 'Borel', sans-serif;
@@ -53,7 +52,6 @@ h1 {
 #nav {
     font-size: 130%;
     margin-top: 30px;
-    text-align: right;
     font-family: 'Borel', sans-serif;
 }
 
@@ -71,7 +69,7 @@ h1 {
 /* Main content */
 main {
     background-color: #CCFF99;
-    /* Make main element take up any surplus space to push fotter down */
+    /* Make main element take up any surplus space to push fotter down from the Love Running project */
     flex: 1 0 auto;
     padding-top: 1px;
 }
@@ -91,24 +89,25 @@ main {
 }
 
 /* Magic Walks */
-.walks-header {
-    font-family: 'Borel', sans-serif;
-    padding-top: 50px;
-
-
-}
-
-.walks-texts {
- padding-bottom: 0px 0px 0px 10px;
-    
-}
-
 #container {
     display: flex;
     flex-direction: column;
     padding-left: 10px;
-    
 
+}
+
+.walks-header {
+    font-family: 'Borel', sans-serif;
+    padding-top: 3px;
+}
+
+.walks-texts {
+    padding-bottom: 0px 0px 0px 10px;
+
+}
+
+.bottom-spacing {
+    margin-bottom: 20px;
 }
 
 .container-video {
@@ -117,16 +116,6 @@ main {
 }
 
 /* Contact Us */
-.main-contact {
-    background-image: url("");
-    
-
-}
-
-.wrapper-contact {
-
-}
-
 
 
 
@@ -156,23 +145,3 @@ main {
     margin-right: 30px;
     display: inline-block;
 }
-
-/*
-.footer {
-    background-color: #ccff66;
-    display: flex;
-    justify-content: flex-start;
-}
-
-#copyright {
-    justify-content: flex-start;
-    margin-bottom: 10px;
-
-}
-
-#social-media {
-    padding: 20px 0;
-    justify-content: flex-end;
-    list-style-type: none;
-}
-*/
