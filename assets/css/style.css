@@ -5,7 +5,7 @@
 /* Asterisk wildcard selector to override default styles by browser like in the love running video recommanded */
 * {
     padding: 0;
-    margin: 0;
+    margin: 0px;
     box-sizing: border-box;
     color: #355E3B;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 
-/* Header*/
+/* Header update the header as its from Love running */
 header {
     display: flex;
     padding: 4px;
@@ -61,6 +61,7 @@ h1 {
 
 }
 
+/* Update active for nav bar */
 .active {}
 
 /* Main content */
@@ -90,7 +91,6 @@ main {
     display: flex;
     flex-direction: column;
     padding-left: 10px;
-
 }
 
 .walks-header {
@@ -100,12 +100,10 @@ main {
 
 .walks-texts {
     padding-bottom: 0px 0px 0px 10px;
-
 }
 
 .bottom-spacing {
     margin-bottom: 20px;
-
 }
 
 .container-video {
@@ -117,22 +115,41 @@ main {
 .contact-box {
     display: flex;
     flex-direction: column;
-    margin: 64px 3px 5px 3px;
-    border-radius: 15px;
+    margin: 10px 3px 5px 3px;
+    border-radius: 50px;
     border: solid 5px #355E3B;
-    padding: 20px;
+    padding: 15px;
     background-color: #ccff66;
-
-
+    width: 800px;
+    height: 700px;
 }
 
 .contact li {
     margin-bottom: 10px;
     text-decoration: none;
-
-
-
 }
+
+/* https: //stackoverflow.com/questions/41838344/positioning-images-in-a-row-with-flexbox */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.content > div {
+    width: 25%;
+    padding: 0 10px 10px 0;
+    box-sizing: border-box;
+}
+
+.content > div img {
+    width: 100%;
+}
+
+/*.images {
+    display: flex;
+    justify-content: start;
+} */
 
 
 /* Footer */
@@ -142,8 +159,6 @@ main {
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-
-
 }
 
 #copyright {
