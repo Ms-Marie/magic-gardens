@@ -112,44 +112,43 @@ main {
 }
 
 /* Contact Us */
+
+
+
 .contact-box {
     display: flex;
     flex-direction: column;
-    margin: 10px 3px 5px 3px;
+    margin: 10px 410px 10px;
     border-radius: 50px;
-    border: solid 5px #355E3B;
+    border: solid 3px #355E3B;
     padding: 15px;
     background-color: #ccff66;
-    width: 800px;
+    width: 600px;
     height: 700px;
 }
 
-.contact li {
-    margin-bottom: 10px;
-    text-decoration: none;
-}
+
 
 /* https: //stackoverflow.com/questions/41838344/positioning-images-in-a-row-with-flexbox */
-.content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+
+
+.contact-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
-.content > div {
-    width: 25%;
-    padding: 0 10px 10px 0;
-    box-sizing: border-box;
+.contact-images > div {
+  width: 25%;
+  padding: 0 10px 10px 0;
+  box-sizing: border-box;
 }
 
-.content > div img {
-    width: 100%;
+.contact-images > div  img {
+  width: 100%;
 }
 
-/*.images {
-    display: flex;
-    justify-content: start;
-} */
+
 
 
 /* Footer */
