@@ -113,19 +113,74 @@ main {
 
 /* Contact Us */
 
-
-
-.contact-box {
+/*.contact-box {
     display: flex;
     flex-direction: column;
     margin: 10px 410px 10px;
     border-radius: 50px;
     border: solid 3px #355E3B;
-    padding: 15px;
+    padding: 8px;
     background-color: #ccff66;
     width: 600px;
     height: 700px;
 }
+*/
+
+.contact-box {
+    display: flex;
+    background-color: #ccff66;
+    border-radius: 3px;
+    padding: 1.8em;
+}
+
+.message {
+    margin-right: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.message>textarea {
+    flex: 1;
+    min-width: 18em;
+}
+
+.contact-label {
+    flex: 1;
+}
+
+.contact-label input {
+    width: 100%;
+}
+
+.contact-label input,
+.contact-label button {
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.contact-label button {
+    background: #355E3B;
+    color: #fff;
+    border: 0;
+}
+
+/*
+#contact-box input,
+#contact label {
+    display: inline-block;
+    color: #355E3B;
+}
+
+#contact-box label {
+    width: 60%;
+    text-align: left;
+
+}
+
+#contact-box input {
+    width: 65%;
+    height: 20px
+} */
 
 
 
@@ -133,19 +188,19 @@ main {
 
 
 .contact-images {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
-.contact-images > div {
-  width: 25%;
-  padding: 0 10px 10px 0;
-  box-sizing: border-box;
+.contact-images>div {
+    width: 25%;
+    padding: 0 10px 10px 0;
+    box-sizing: border-box;
 }
 
-.contact-images > div  img {
-  width: 100%;
+.contact-images>div img {
+    width: 100%;
 }
 
 
