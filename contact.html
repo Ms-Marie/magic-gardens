@@ -44,32 +44,25 @@
     <main>
       <!-- Contact form -->
       <section>
-        <fieldset>
-          <legend>
-            <h2>Reach out to us and have your walking boots ready!</h2>
-          </legend>
+        <form class="contact-box" method="Get" action="confirmation.html">
+          <div class="message">
+            <label for="msg">Message</label>
+            <textarea rows="6" id="message"></textarea>
+          </div>
 
-          <form class="contact-box" method="Get" action="confirmation.html">
-            <h3>Your details</h3>
-            <div class="message">
-              <label for="msg">Message</label>
-              <textarea rows="6" id="message"></textarea>
-            </div>
+          <div class="contact-label">
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
 
-            <div class="contact-label">
-              <label for="name">Name</label>
-              <input type="text" id="name" />
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" required>
 
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" />
+            <label for="email">Email Address</label>
+            <input type="email" id="email" required>
 
-              <label for="email">Email Address</label>
-              <input type="email" id="email" />
-
-              <button type="submit">Submit</button>
-            </div>
-          </form>
-        </fieldset>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
       </section>
 
       <!-- Images -->
