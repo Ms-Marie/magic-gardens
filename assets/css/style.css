@@ -10,7 +10,7 @@
     color: #355E3B;
 }
 
-/* Generic styles update the body as its from Love running */
+/* Generic styles - source: Love running */
 body {
     min-height: 100vh;
     display: flex;
@@ -20,7 +20,7 @@ body {
 }
 
 
-/* Header update the header as its from Love running */
+/* Header - source: Love running */
 header {
     display: flex;
     padding: 4px;
@@ -61,9 +61,7 @@ h1 {
 }
 
 /* Update active for nav bar */
-.active {
-    
-}
+.active {}
 
 /* Main content */
 main {
@@ -112,10 +110,7 @@ main {
 }
 
 /* Contact Us */
-
 /* https: //www.quackit.com/html/html_editors/scratchpad/?example=/css/flexbox/examples/flexbox_form_example_3 */
-
-
 .contact-box {
     display: flex;
     background-color: #ccff66;
@@ -164,8 +159,6 @@ main {
 }
 
 /* https: //stackoverflow.com/questions/41838344/positioning-images-in-a-row-with-flexbox */
-
-
 .contact-images {
     display: flex;
     flex-wrap: wrap;
@@ -180,6 +173,13 @@ main {
 
 .contact-images>div img {
     width: 100%;
+}
+
+/* Thank you message */
+#thank-you-message {
+    font-family: 'Rem', sans-serif;
+    margin-top: 100px;
+    font-size: larger;
 }
 
 
