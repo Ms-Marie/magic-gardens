@@ -61,7 +61,10 @@ h1 {
 }
 
 /* Update active for nav bar */
-.active {}
+.active {
+    border-bottom: 2px solid #355E3B;
+
+}
 
 /* Main content */
 main {
