@@ -27,6 +27,8 @@ header {
     background-color: #ccff66;
     width: 100%;
     justify-content: space-between;
+    position: fixed;
+    overflow: hidden;
 
 }
 
@@ -79,12 +81,14 @@ main {
     width: 100%;
     background: url(../images/cosmic-timetraveler-pYyOZ8q7AII-unsplash.jpg) no-repeat center center;
     margin-bottom: 15px;
+    margin-top: 70px;
 }
 
 /* Hearder styling for Home and Magic Walk screen*/
 #title {
     text-align: center;
     padding-top: 10px;
+    margin-top: 120px;
 }
 
 /* Magic Walks */
@@ -123,6 +127,7 @@ main {
     width: 650px;
     height: 400px;
     margin: 10px 410px 10px;
+    margin-top: 125px;
 }
 
 .message {
@@ -211,4 +216,12 @@ main {
     display: inline-block;
 }
 
-/* Meda queries*/
+/* Media queries*/
+/* Web Dev Simplified
+https://www.youtube.com/watch?v=yU7jJ3NbPdA*/
+
+@media(max-width:1280px) {
+    .container {
+        width: 100%;
+
+    }
